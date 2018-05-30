@@ -1,4 +1,4 @@
-package Interview;
+package Practice;
 
 public class BinaryConverter {
     public static String binaryConverter(int n){

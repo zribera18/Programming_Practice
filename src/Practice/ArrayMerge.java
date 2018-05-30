@@ -1,6 +1,8 @@
-public class InOrderMerge {
+package Practice;
 
-    public static int[] inOrderMerge(int[] x, int[] y){
+public class ArrayMerge {
+
+    public static int[] arrayMerge(int[] x, int[] y){
         int[] sorted = new int[x.length + y.length];
         int countX = 0, countY = 0;
 
@@ -19,7 +21,7 @@ public class InOrderMerge {
     public static void main(String[] args){
         int[] arr1 = {1,3,4,5};
         int[] arr2 = {2,4,6,8};
-        int[] arr3 = inOrderMerge(arr1, arr2);
+        int[] arr3 = arrayMerge(arr1, arr2);
 
         for (int i = 0; i < arr3.length; i++){
             System.out.print(arr3[i] + " ");

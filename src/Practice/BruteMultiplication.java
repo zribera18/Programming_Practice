@@ -1,4 +1,4 @@
-package Interview;
+package Practice;
 
 public class BruteMultiplication {
     public static int bruteMultiplication(int x, int y){

@@ -1,4 +1,4 @@
-package Interview;
+package Practice;
 
 public class StringReverse {
     public static String stringReverse(String a){

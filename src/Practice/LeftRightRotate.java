@@ -1,4 +1,4 @@
-package Interview;
+package Practice;
 
 public class LeftRightRotate {
 
